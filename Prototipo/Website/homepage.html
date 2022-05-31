@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="pt">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Produtos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon"
+        href="https://i1.wp.com/www.sweetmonday.org/wp-content/uploads/2017/02/cropped-SM-cupcake-icon-transparent-small2.png?ssl=1">
+
+
+<style>
+
+    .col-6 a{
+        text-decoration: none;
+        color: white;
+    }
+
+    .col-6{
+        width: 300px;
+        margin: 0 auto;
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .blue{
+        color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: rgb(0, 162, 255);
+        font-weight: bold;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-transform: uppercase;
+    }
+
+    .t1{
+        font-size: 30pt;
+    }
+
+    .t2{
+        font-size: 60pt;
+    }
+
+    .card-title{
+        text-transform: uppercase;
+        color: brown;
+        font-weight: bold;
+    }
+
+    .valor{
+        color: green;
+        font-size: 15pt;
+    }
+
+    .qtde{
+        border: none;
+    }
+
+    .cart{
+        border: none;
+        background-color: none;
+    }
+
+    .blue img{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 90%;
+
+    }
+
+</style>
+
+</head>
+
+<body>
+
+    <div class="container-fluid bg-dark">
+
+        <div class="row">
+
+            <div class="col-6">
+
+                <span class="ms-2"><a href="#">Produtos</a></span>
+                <span class="ms-2"><a href="#">Perfil</a></span>
+                <span class="ms-2"><a href="#">Historico</a></span>
+                <span class="ms-2"><a href="#">Sair</a></span>
+
+
+
+            </div>
+
+    
+
+        </div>
+
+    </div>
+
+    <div class="container-fluid">
+        <div class="row blue" >
+            <span class="t1 mb-2">Nossos</span><br>
+            <span class="t2">Sabores</span>
+            <img src="https://images.vexels.com/media/users/3/141186/isolated/preview/431ad815c9a8402ebdf354c82923c2a5-carrinho-de-compras-6.png"> 
+        </div>
+
+           
+   
+    </div>
+
+    <div class="container-fluid mt-3">
+        <div class="row">
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">BRIGADEIRO</h5>
+                      <p class="card-text">Bolo de chocolate com cobertura de brigadeiro de verdade, feito com Leite Moça Nestlé!</p>
+                      <span class="valor">R$: 15,00</span><br>
+                      <label for="customRange1" class="form-label">Quantidade</label>
+                      <input min="1" max="100" value="1" type="range" class="form-range" id="customRange1">
+                      <a class="btn btn-primary mt-3">Adicionar ao carrinho</a>
+                    </div>
+                  </div>
+            </div>
+
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">RED VELVET</h5>
+                      <p class="card-text">Bolinho de baunilha e cacau e cobertura de cream cheese frosting Philadelphia. O tradicional!</p>
+                      <span class="valor">R$: 11,00</span><br>
+                      <label for="customRange1" class="form-label">Quantidade</label>
+                      <input min="1" max="100" value="1" type="range" class="form-range" id="customRange1">
+                      <a class="btn btn-primary mt-3">Adicionar ao carrinho</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">CHOCOBLANC</h5>
+                      <p class="card-text">Bolo de baunilha com recheio de geleia caseira de frutas vermelhas e cobertura de ganache</p>
+                      <span class="valor">R$: 15,00</span><br>
+                      <label for="customRange1" class="form-label">Quantidade</label>
+                      <input min="1" max="100" value="1" type="range" class="form-range" id="customRange1">
+                      <a class="btn btn-primary mt-3">Adicionar ao carrinho</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-3">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">MILKYWAY</h5>
+                      <p class="card-text">Bolo levinho de baunilha com cobertura e recheio de doce de leite.</p>
+                      <span class="valor">R$: 25,00</span><br>
+                      <label for="customRange1" class="form-label">Quantidade</label>
+                      <input min="1" max="100" value="1" type="range" class="form-range" id="customRange1">
+                      <a class="btn btn-primary mt-3">Adicionar ao carrinho</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
